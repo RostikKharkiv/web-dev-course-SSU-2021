@@ -1,0 +1,19 @@
+body {background: #bdc3c7;}
+h1 {color: #9b59b6;}
+h2 {color: orange}
+li {color: blue}
+p {background-color: yellow;}
+input {border-color: red; border-width: 3px; border-style: solid;}
+.hello {background: white;}
+#special {border-color: rgb(35, 224, 35); border-width: 2px; border-style: solid;}
+div p {font-size: 25px;}
+input:text {background: gray;}
+div:nth-child(3) p {background: hotpink;}
+div:nth-child(3) p:nth-child(2) {border-color: white; border-width: 5px; border-style: solid;}
+div:nth-child(3) em {background: white; font-size: 20px;}
+input:checked:checked {margin-left: 50px;}
+label {text-transform: uppercase;}
+#special::first-letter {color: rgb(35, 224, 35); font-size: 100px;}
+h1:hover {color: red;}
+a:visited {color: rgb(35, 224, 35);}
+
