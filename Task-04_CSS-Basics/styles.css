@@ -1,0 +1,66 @@
+html,
+body {
+    width: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    text-align: center;
+    background-color: rgb(124, 209, 181);
+}
+
+.aside-menu,
+.content,
+.wrapper-last-posts {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.aside-menu {
+    width: 20%;
+    padding-left: 15px;
+}
+
+.content {
+    width: 60%;
+    padding-left: 15px;
+    border-left: 3px solid rgb(155, 102, 160);
+}
+
+.wrapper-last-posts {
+    float: right;
+    width: 20%;
+}
+
+.aside-last-posts {
+    position: absolute;
+    right: 15px;
+    text-align: right;
+    padding: 0 15px 0 15px;
+    border: 3px dashed rgb(155, 102, 160);
+}
+
+
+.aside-menu__list,
+.aside-last-posts__list {
+    list-style: none;
+    padding: 0;
+}
+
+.footer {
+    text-align: center;
+}
+
+img {
+    width: 700px;
+}
+
+a:hover {
+    color: rgb(214, 85, 106);
+}
+
+a:visited {
+    color: rgb(25, 168, 73);
+}
