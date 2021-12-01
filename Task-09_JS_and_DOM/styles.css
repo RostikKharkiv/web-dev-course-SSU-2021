@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    margin: auto;
+    padding: 3rem 5rem 3rem 5rem;
+    width: 85%;
+    color: rgb(255, 251, 246);
+    background: rgb(7,7,8);
+    background: linear-gradient(105deg, rgba(7,7,8,1) 0%, rgba(9,88,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+input {
+    border-radius: 0.3rem;
+    border: 1px solid rgb(202, 202, 202);
+    cursor: pointer;
+    align-items: center;
+    text-align: start;
+    width: 30%;
+    font-size: 0.95rem;
+    padding: 0.8rem 1.5rem;
+    margin-top: 1rem;
+    margin-right: 3rem;
+}
+button {
+    line-height: 1.25;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    background-color:#37b69a;
+    border-color: #37b69a;
+    color: white
+}
+button:hover {
+    transform: scale(1.10);
+}
+.title {
+    margin-top: 0;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.clearVowel,
+.clearDegree,
+.clearEleminate {
+    color: white;
+    background-color: rgb(178, 199, 159);
+    border-color: rgb(178, 199, 159);
+}
+.result {
+    margin: 2.5rem 0;
+    line-height: 2.5rem;
+}
+.func-block {
+    background: rgb(203,203,203);
+    background: linear-gradient(0deg, rgba(203,203,203,1) 0%, rgba(192,208,214,1) 50%, rgba(179,217,233,1) 100%);
+    color: black;
+    padding: 1rem 3rem;
+    margin-bottom: 2.5rem;
+    border-radius:0.5rem
+}
