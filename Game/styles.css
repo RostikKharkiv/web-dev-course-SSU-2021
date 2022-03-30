@@ -1,0 +1,73 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(images/background.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.gameover {
+    background: black, url(images/gameover.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.player {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: calc(50%-225px);
+    left: 60px;
+    background: url(images/player.png);
+}
+
+.enemy {
+    position: absolute;
+    top: calc(50% - 85)px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    background: url(images/bomb.png);
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    transition: all 0.1s;
+}
+
+.bullet {
+    width: 50px;
+    height: 25px;
+    background: url(images/bullet.png);
+    position: absolute;
+    top: 20%;
+    left: 250px;
+    z-index: 5;
+}
+
+.boom {
+  background: url(images/boom.gif);
+  position: absolute;
+  width: 200px;
+  height: 200px;
+}
+
+#health {
+  position: absolute;
+  top: 20 px;
+  right: 20px;
+
+}
+
+#health span {
+  display: block;
+  margin: 10px;
+  float: left;
+  width: 64px;
+  height: 64px;
+  background: url(images/heart.png);
+  background-size: cover;
+}
